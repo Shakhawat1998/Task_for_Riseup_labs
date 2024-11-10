@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Daily Finance Automation">
+    <test name="Registration">
+        <classes>
+            <class name="testrunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Add Cost">
+        <classes>
+            <class name="testrunner.AddCostTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Upload Image">
+        <classes>
+            <class name="testrunner.UploadImageTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Check Last User From Admin Dashboard">
+        <classes>
+            <class name="testrunner.AdminDashboardTestRunner"></class>
+        </classes>
+    </test>
+
+</suite>
